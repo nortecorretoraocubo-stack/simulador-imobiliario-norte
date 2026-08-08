@@ -37,3 +37,38 @@
 /* v1.13.0 - datas, periodicidade das intermediárias e dois caminhos de obra */
 .due-date-card .field{max-width:260px}.intermediate-schedule-panel{margin-top:1rem;padding:1rem;border:1px solid var(--color-border);border-radius:14px;background:var(--color-bg)}.intermediate-schedule-panel h3{margin:0 0 .8rem;color:var(--color-primary)}.free-intermediate-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.8rem;grid-column:1/-1}.schedule-preview{display:grid;gap:.25rem;padding:.8rem 1rem;margin-top:.75rem;border-radius:12px;background:#f4f7f9;border:1px solid var(--color-border)}.schedule-preview span{font-size:.75rem;color:var(--color-muted);text-transform:uppercase;letter-spacing:.05em;font-weight:800}.schedule-preview strong{font-size:.9rem;color:var(--color-primary);line-height:1.45}.projection-table td:first-child{white-space:normal}.projection-table td:first-child strong{display:block}.projection-table td:first-child small{display:block;margin-top:.2rem;color:var(--color-muted);font-size:.72rem}.client-flow-grid>div small{display:block;color:var(--color-muted);font-size:.72rem;margin-top:.25rem;line-height:1.35}
 @media(max-width:720px){.free-intermediate-grid{grid-template-columns:1fr}.due-date-card .field{max-width:none}.schedule-preview strong{font-size:.82rem}}
+
+/* v1.13.3 — mobile alignment for subsidy checkbox */
+.subsidy-check{
+  display:grid;
+  grid-template-columns:28px minmax(0,1fr);
+  align-items:start;
+  column-gap:.8rem;
+  width:100%;
+  max-width:100%;
+  padding:.15rem 0;
+  box-sizing:border-box;
+}
+.subsidy-check input{
+  width:22px;
+  height:22px;
+  margin:.15rem 0 0;
+  justify-self:start;
+  flex:0 0 auto;
+}
+.subsidy-check span{
+  display:block;
+  min-width:0;
+  width:100%;
+  line-height:1.35;
+  overflow-wrap:anywhere;
+  word-break:normal;
+}
+@media (max-width:600px){
+  .subsidy-check{
+    grid-template-columns:24px minmax(0,1fr);
+    column-gap:.7rem;
+  }
+  .subsidy-check input{width:20px;height:20px;}
+  .subsidy-check span{font-size:.95rem;}
+}
