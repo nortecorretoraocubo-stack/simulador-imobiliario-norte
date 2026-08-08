@@ -1,4 +1,4 @@
-export const APP_VERSION = '1.13.2';
+export const APP_VERSION = '1.13.3';
 export const BROKER_PROFILE = {
   name: 'Norte Corretor de Imóveis',
   whatsapp: '5511932038579',
