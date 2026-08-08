@@ -1,0 +1,57 @@
+{
+  "version": "2026.08.07",
+  "updatedAt": "2026-08-07",
+  "source": "Projeção comercial. INCC-M e IGP-M baseados nos acumulados de 12 meses divulgados pela FGV IBRE em junho/2026; evolução de obra modelada a partir da regra CAIXA de liberação conforme medição física, com curva teórica de 36 meses.",
+  "incc": {
+    "annualReference": 0.0671,
+    "monthlyReference": 0.00542673,
+    "label": "INCC-M",
+    "reference": "FGV IBRE - acumulado 12 meses jun/2026"
+  },
+  "igpm": {
+    "annualReference": 0.0316,
+    "monthlyReference": 0.00259595,
+    "label": "IGP-M",
+    "reference": "FGV IBRE - acumulado 12 meses jun/2026"
+  },
+  "evolution": {
+    "averageConstructionMonths": 36,
+    "firstChargeAfterMonths": 2,
+    "milestones": [
+      [
+        0,
+        0
+      ],
+      [
+        6,
+        0.08
+      ],
+      [
+        12,
+        0.25
+      ],
+      [
+        18,
+        0.5
+      ],
+      [
+        24,
+        0.78
+      ],
+      [
+        30,
+        0.93
+      ],
+      [
+        36,
+        1.0
+      ]
+    ],
+    "includeFutureTR": false,
+    "includeInsuranceAndAdmin": false
+  },
+  "risk": {
+    "lowMaximum": 0.85,
+    "moderateMaximum": 1.0
+  }
+}

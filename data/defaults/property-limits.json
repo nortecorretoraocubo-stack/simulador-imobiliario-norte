@@ -1,0 +1,38 @@
+{
+  "version": "2026.08.01",
+  "updatedAt": "2026-08-03",
+  "validFrom": "2026-08-01",
+  "validUntil": null,
+  "source": "Especificação funcional do Simulador Imobiliário Norte — regras fornecidas para agosto de 2026",
+  "validationValue": "saleValue",
+  "rules": [
+    {
+      "id": "limits-sp-sao-paulo-2026-08",
+      "state": "SP",
+      "city": "São Paulo",
+      "regionalGroup": "São Paulo Capital e Região Metropolitana",
+      "limits": {
+        "Faixa 1": 275000,
+        "Faixa 2": 275000,
+        "Faixa 3": 400000,
+        "Faixa 4": 600000
+      },
+      "active": true,
+      "validFrom": "2026-08-01",
+      "validUntil": null
+    }
+  ],
+  "fallback": {
+    "bands1And2": {
+      "minimumIndicative": 210000,
+      "maximumIndicative": 275000,
+      "requiresMunicipalityRule": true
+    },
+    "message": "Condição pendente de validação para este município."
+  },
+  "doubleEligibility": {
+    "enabled": true,
+    "doNotPromoteIncomeBand": true,
+    "overLimitMessage": "Renda enquadrada na {band}, mas o imóvel supera o teto permitido para essa faixa."
+  }
+}

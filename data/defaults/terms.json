@@ -1,0 +1,17 @@
+{
+  "version": "2026.08.01",
+  "updatedAt": "2026-08-03",
+  "validFrom": "2026-08-01",
+  "validUntil": null,
+  "source": "Especificação funcional do Simulador Imobiliário Norte — regras fornecidas para agosto de 2026",
+  "absoluteMaximumMonths": 420,
+  "maximumAgeAtEnd": {
+    "years": 80,
+    "months": 6
+  },
+  "preferBirthDate": true,
+  "calculation": "menor entre prazo solicitado, prazo absoluto, prazo máximo da linha e prazo máximo pela idade",
+  "ageOnlyNotice": "Prazo aproximado. Para maior precisão, informe a data de nascimento.",
+  "displayTemplate": "Prazo máximo estimado: {months} meses.",
+  "active": true
+}

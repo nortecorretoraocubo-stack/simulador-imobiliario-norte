@@ -1,0 +1,24 @@
+{
+  "version": "2026.08.01",
+  "updatedAt": "2026-08-03",
+  "validFrom": "2026-08-01",
+  "validUntil": null,
+  "source": "Especificação funcional do Simulador Imobiliário Norte — regras fornecidas para agosto de 2026",
+  "municipalities": [
+    {
+      "id": "sp-sao-paulo",
+      "state": "SP",
+      "stateName": "São Paulo",
+      "city": "São Paulo",
+      "countryRegion": "Sudeste",
+      "regionalGroup": "São Paulo Capital e Região Metropolitana",
+      "metropolitanRegion": true,
+      "default": true,
+      "active": true
+    }
+  ],
+  "futureExpansion": {
+    "enabled": true,
+    "notes": "Estrutura preparada para inclusão de outros estados, municípios e agrupamentos regionais."
+  }
+}

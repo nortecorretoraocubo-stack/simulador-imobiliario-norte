@@ -1,0 +1,80 @@
+{
+  "version": "2026.08.07",
+  "updatedAt": "2026-08-07",
+  "validFrom": "2026-08-01",
+  "validUntil": null,
+  "source": "Ministério das Cidades — faixas urbanas do Minha Casa, Minha Vida após Portaria MCID nº 333/2026: Faixa 1 até R$ 3.200; Faixa 2 até R$ 5.000; Faixa 3 até R$ 9.600; Classe Média até R$ 13.000.",
+  "program": "MCMV",
+  "rules": [
+    {
+      "id": "mcmv-faixa-1a",
+      "band": "Faixa 1",
+      "subBand": "1A",
+      "minimumIncome": 0,
+      "maximumIncome": 2160,
+      "active": true
+    },
+    {
+      "id": "mcmv-faixa-1b",
+      "band": "Faixa 1",
+      "subBand": "1B",
+      "minimumIncome": 2160.01,
+      "maximumIncome": 2850,
+      "active": true
+    },
+    {
+      "id": "mcmv-faixa-1c",
+      "band": "Faixa 1",
+      "subBand": "1C",
+      "minimumIncome": 2850.01,
+      "maximumIncome": 3200,
+      "active": true
+    },
+    {
+      "id": "mcmv-faixa-2a",
+      "band": "Faixa 2",
+      "subBand": "2A",
+      "minimumIncome": 3200.01,
+      "maximumIncome": 3500,
+      "active": true
+    },
+    {
+      "id": "mcmv-faixa-2b",
+      "band": "Faixa 2",
+      "subBand": "2B",
+      "minimumIncome": 3500.01,
+      "maximumIncome": 4000,
+      "active": true
+    },
+    {
+      "id": "mcmv-faixa-2c",
+      "band": "Faixa 2",
+      "subBand": "2C",
+      "minimumIncome": 4000.01,
+      "maximumIncome": 5000,
+      "active": true
+    },
+    {
+      "id": "mcmv-faixa-3",
+      "band": "Faixa 3",
+      "subBand": null,
+      "minimumIncome": 5000.01,
+      "maximumIncome": 9600,
+      "active": true
+    },
+    {
+      "id": "mcmv-faixa-4",
+      "band": "Faixa 4",
+      "displayName": "MCMV Classe Média",
+      "subBand": null,
+      "minimumIncome": 9600.01,
+      "maximumIncome": 13000,
+      "active": true
+    }
+  ],
+  "outsideProgram": {
+    "minimumIncomeExclusive": 13000,
+    "message": "Cliente fora do limite de renda do Minha Casa, Minha Vida. Selecione ou informe uma taxa de outra linha de crédito.",
+    "requiresManualRate": true
+  }
+}

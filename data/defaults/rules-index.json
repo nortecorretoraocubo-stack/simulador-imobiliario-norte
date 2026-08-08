@@ -1,0 +1,75 @@
+{
+  "version": "2026.08.07",
+  "updatedAt": "2026-08-07",
+  "validFrom": "2026-08-01",
+  "validUntil": null,
+  "source": "Regras do Simulador Norte revisadas em 07/08/2026; faixas e taxas MCMV conferidas com Ministério das Cidades.",
+  "rulesVersion": "2026.08.07",
+  "files": [
+    {
+      "id": "app-settings",
+      "path": "./data/defaults/app-settings.json",
+      "required": true
+    },
+    {
+      "id": "income-bands",
+      "path": "./data/defaults/income-bands.json",
+      "required": true
+    },
+    {
+      "id": "interest-rates",
+      "path": "./data/defaults/interest-rates.json",
+      "required": true
+    },
+    {
+      "id": "municipalities",
+      "path": "./data/defaults/municipalities.json",
+      "required": true
+    },
+    {
+      "id": "property-limits",
+      "path": "./data/defaults/property-limits.json",
+      "required": true
+    },
+    {
+      "id": "financing-quotas",
+      "path": "./data/defaults/financing-quotas.json",
+      "required": true
+    },
+    {
+      "id": "subsidies",
+      "path": "./data/defaults/subsidies.json",
+      "required": true
+    },
+    {
+      "id": "terms",
+      "path": "./data/defaults/terms.json",
+      "required": true
+    },
+    {
+      "id": "construction-flow",
+      "path": "./data/defaults/construction-flow.json",
+      "required": true
+    },
+    {
+      "id": "sbpe-rules",
+      "path": "./data/defaults/sbpe-rules.json",
+      "required": true
+    },
+    {
+      "id": "acquisition-costs",
+      "path": "./data/defaults/acquisition-costs.json",
+      "required": true
+    },
+    {
+      "id": "legal-notices",
+      "path": "./data/defaults/legal-notices.json",
+      "required": true
+    },
+    {
+      "path": "./data/defaults/projection-settings.json",
+      "required": true,
+      "id": "projection-settings"
+    }
+  ]
+}

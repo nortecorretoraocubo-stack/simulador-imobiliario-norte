@@ -1,0 +1,55 @@
+{
+  "version": "2026.08.02",
+  "updatedAt": "2026-08-03",
+  "validFrom": "2026-08-01",
+  "validUntil": null,
+  "source": "Especificação funcional e regra operacional informada para o Simulador Imobiliário Norte",
+  "defaultQuota": 0.8,
+  "exceptionalMaximum": 0.9,
+  "rules": [
+    {
+      "id": "quota-associativo-em-obras-80",
+      "program": "MCMV",
+      "band": "*",
+      "modality": "associativo",
+      "propertyCondition": "*",
+      "deliveryStatus": "em_obras",
+      "amortizationSystem": "*",
+      "constructionType": "associativo",
+      "quotaBase": "appraisal",
+      "standardQuota": 0.8,
+      "maximumQuota": 0.8,
+      "condition": "No associativo em obras, utilizar a avaliação bancária como base da cota, inclusive quando superior ao valor de venda.",
+      "active": true,
+      "validFrom": "2026-08-01",
+      "validUntil": null
+    },
+    {
+      "id": "quota-default-80",
+      "program": "MCMV",
+      "band": "*",
+      "modality": "*",
+      "propertyCondition": "*",
+      "deliveryStatus": "*",
+      "amortizationSystem": "*",
+      "constructionType": "*",
+      "quotaBase": "minimum",
+      "standardQuota": 0.8,
+      "maximumQuota": 0.8,
+      "condition": "Aplicar quando não existir regra específica validada.",
+      "active": true,
+      "validFrom": "2026-08-01",
+      "validUntil": null
+    }
+  ],
+  "manualEdit": {
+    "enabled": true,
+    "warning": "Cota alterada manualmente. Confirme a compatibilidade com a modalidade e a regra vigente."
+  },
+  "exceptionalRule": {
+    "automatic": false,
+    "maximumQuota": 0.9,
+    "status": "pending_validation",
+    "message": "Cota excepcional de até 90% somente poderá ser usada quando houver regra específica validada."
+  }
+}

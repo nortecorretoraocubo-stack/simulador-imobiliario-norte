@@ -1,0 +1,71 @@
+{
+  "version": "2026.08.05",
+  "updatedAt": "2026-08-05",
+  "active": true,
+  "region": {
+    "state": "SP",
+    "city": "São Paulo"
+  },
+  "estimate": {
+    "minimumPercentage": 0.04,
+    "suggestedPercentage": 0.045,
+    "maximumPercentage": 0.05,
+    "calculationBase": "saleValue",
+    "label": "Reserva estimada para impostos, cartório e despesas bancárias"
+  },
+  "components": {
+    "itbi": {
+      "standardRate": 0.03,
+      "calculationNote": "Estimativa preliminar calculada sobre o valor de venda informado. O valor oficial pode considerar outra base definida pelo Município.",
+      "sfhNote": "Operações enquadradas no SFH podem possuir tratamento específico. A eventual redução não é calculada automaticamente."
+    },
+    "propertyRegistry": {
+      "automaticCalculation": false,
+      "note": "Emolumentos progressivos conforme a tabela vigente do Registro de Imóveis.",
+      "firstResidentialSfhDiscount": 0.5,
+      "discountNote": "A redução de 50% pode ser aplicável à primeira aquisição residencial financiada pelo SFH, sujeita à comprovação e conferência do cartório."
+    },
+    "publicDeed": {
+      "requiredWhenFinanced": false,
+      "note": "Em compras financiadas, o contrato da instituição financeira normalmente possui força de escritura pública; permanece devido o registro do imóvel."
+    },
+    "bankAppraisal": {
+      "minimumValue": 3000,
+      "maximumValue": 4000,
+      "note": "Faixa de referência informativa; confirme a tarifa vigente da instituição financeira."
+    },
+    "creditAndLegalAnalysis": {
+      "minimumValue": 500,
+      "maximumValue": 1200,
+      "note": "Faixa de referência informativa; pode variar conforme a instituição."
+    },
+    "certificates": {
+      "minimumValue": 300,
+      "maximumValue": 800
+    },
+    "documentAssistance": {
+      "optional": true,
+      "minimumValue": 800,
+      "maximumValue": 2000
+    },
+    "mandatoryInsurance": {
+      "includedInInstallments": true,
+      "note": "MIP e DFI variam conforme idade, saldo devedor, imóvel e condições contratuais; não estão incluídos nesta reserva estimada."
+    }
+  },
+  "display": {
+    "readyPropertyClientSummary": true,
+    "constructionPropertyClientSummary": false,
+    "detailedAnalysis": true
+  },
+  "notices": [
+    "Esta é uma reserva comercial estimada e não substitui as guias, tabelas de emolumentos ou tarifas oficiais.",
+    "Os custos são paralelos à entrada do imóvel e não reduzem automaticamente o valor de recursos próprios da compra.",
+    "Benefícios de ITBI ou registro dependem do enquadramento, do perfil do comprador e da confirmação pelos órgãos responsáveis."
+  ],
+  "sources": [
+    "Prefeitura de São Paulo — ITBI",
+    "Lei de Registros Públicos — redução de emolumentos na primeira aquisição residencial pelo SFH",
+    "Referências comerciais informadas para o Simulador Imobiliário Norte"
+  ]
+}

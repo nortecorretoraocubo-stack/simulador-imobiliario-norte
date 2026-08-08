@@ -1,0 +1,2 @@
+/* Tema Norte: azul-marinho para confiança e verde-claro para avanço e destaque. */
+::selection{background:var(--color-accent);color:var(--color-primary)}

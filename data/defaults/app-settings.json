@@ -1,0 +1,45 @@
+{
+  "appVersion": "1.13.2",
+  "rulesVersion": "2026.08.07",
+  "rulesUpdatedAt": "2026-08-07",
+  "locale": "pt-BR",
+  "currency": "BRL",
+  "defaultRegion": "Sudeste",
+  "defaultState": "SP",
+  "defaultCity": "São Paulo",
+  "defaultMetropolitanRegion": true,
+  "incomeCommitment": {
+    "maximumTotalPercentage": 0.3,
+    "financialBasePercentage": 0.28,
+    "commercialReservePercentage": 0.02,
+    "preventNegativeAvailablePayment": true
+  },
+  "term": {
+    "absoluteMaximumMonths": 420,
+    "maximumAgeYears": 80,
+    "maximumAgeAdditionalMonths": 6
+  },
+  "quota": {
+    "default": 0.8,
+    "exceptionalMaximum": 0.9,
+    "exceptionalAutomatic": false
+  },
+  "constructionFlow": {
+    "monthlyMaximumIncomePercentage": 0.2,
+    "intermediateMaximumIncomePercentage": 0.8,
+    "keysMaximumIncomePercentage": 0.8,
+    "minimumDownPayment": 0
+  },
+  "proSoluto": {
+    "suggestedMaximumPercentage": 0.08,
+    "allowOverMaximumAfterConfirmation": true
+  },
+  "subsidy": {
+    "automaticEnabled": false,
+    "maximumIndicativeValue": 55000
+  },
+  "storage": {
+    "rulesKey": "norte.rules.custom",
+    "rulesVersionKey": "norte.rules.version"
+  }
+}

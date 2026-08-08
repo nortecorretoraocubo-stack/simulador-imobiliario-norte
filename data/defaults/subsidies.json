@@ -1,0 +1,243 @@
+{
+  "version": "2026.08.07",
+  "updatedAt": "2026-08-07",
+  "validFrom": "2026-08-01",
+  "validUntil": null,
+  "source": "Modelo aproximado do Simulador Norte calibrado pela tabela 'TABELA DE FINANCIAMENTO - SEM REDUTOR - NOVAS REGRAS 2026' fornecida pelo usuário; elegibilidade máxima validada com Ministério das Cidades (linha financiada MCMV, atualização 28/06/2026).",
+  "automaticEnabled": true,
+  "rules": [
+    {
+      "id": "subsidy-sudeste-up-to-5000",
+      "program": "MCMV",
+      "regions": [
+        "Sudeste"
+      ],
+      "minimumIncome": 0,
+      "maximumIncome": 5000,
+      "maximumIndicativeValue": 55000,
+      "automaticCalculation": true,
+      "manualEntryAllowed": false,
+      "active": true,
+      "message": "Subsídio estimado por renda e composição familiar. Valor definitivo sujeito ao cálculo oficial do agente financeiro."
+    }
+  ],
+  "approximationMethod": "linear_interpolation_between_reference_points",
+  "approximationProfiles": {
+    "withAdditionalProponentOrDependent": {
+      "label": "Mais de um proponente ou dependente",
+      "points": [
+        {
+          "income": 1000,
+          "value": 55000
+        },
+        {
+          "income": 1900,
+          "value": 55000
+        },
+        {
+          "income": 2000,
+          "value": 52794
+        },
+        {
+          "income": 2100,
+          "value": 47504
+        },
+        {
+          "income": 2200,
+          "value": 42881
+        },
+        {
+          "income": 2300,
+          "value": 38297
+        },
+        {
+          "income": 2400,
+          "value": 34062
+        },
+        {
+          "income": 2500,
+          "value": 30168
+        },
+        {
+          "income": 2600,
+          "value": 26606
+        },
+        {
+          "income": 2700,
+          "value": 23368
+        },
+        {
+          "income": 2800,
+          "value": 20447
+        },
+        {
+          "income": 2850,
+          "value": 19103
+        },
+        {
+          "income": 2900,
+          "value": 18164
+        },
+        {
+          "income": 3000,
+          "value": 15822
+        },
+        {
+          "income": 3100,
+          "value": 13775
+        },
+        {
+          "income": 3200,
+          "value": 12015
+        },
+        {
+          "income": 3300,
+          "value": 10536
+        },
+        {
+          "income": 3400,
+          "value": 9328
+        },
+        {
+          "income": 3500,
+          "value": 8385
+        },
+        {
+          "income": 3600,
+          "value": 7868
+        },
+        {
+          "income": 3700,
+          "value": 7428
+        },
+        {
+          "income": 3800,
+          "value": 2192
+        },
+        {
+          "income": 3900,
+          "value": 2171
+        },
+        {
+          "income": 4000,
+          "value": 2149
+        },
+        {
+          "income": 5000,
+          "value": 0
+        }
+      ]
+    },
+    "withoutAdditionalProponentOrDependent": {
+      "label": "Sem marcador adicional",
+      "points": [
+        {
+          "income": 1000,
+          "value": 16500
+        },
+        {
+          "income": 1900,
+          "value": 16500
+        },
+        {
+          "income": 2000,
+          "value": 15838
+        },
+        {
+          "income": 2100,
+          "value": 14251
+        },
+        {
+          "income": 2200,
+          "value": 12864
+        },
+        {
+          "income": 2300,
+          "value": 11489
+        },
+        {
+          "income": 2400,
+          "value": 10218
+        },
+        {
+          "income": 2500,
+          "value": 9050
+        },
+        {
+          "income": 2600,
+          "value": 7981
+        },
+        {
+          "income": 2700,
+          "value": 7010
+        },
+        {
+          "income": 2800,
+          "value": 6134
+        },
+        {
+          "income": 2850,
+          "value": 5730
+        },
+        {
+          "income": 2900,
+          "value": 5449
+        },
+        {
+          "income": 3000,
+          "value": 4746
+        },
+        {
+          "income": 3100,
+          "value": 4132
+        },
+        {
+          "income": 3200,
+          "value": 3604
+        },
+        {
+          "income": 3300,
+          "value": 3160
+        },
+        {
+          "income": 3400,
+          "value": 2798
+        },
+        {
+          "income": 3500,
+          "value": 2515
+        },
+        {
+          "income": 3600,
+          "value": 2360
+        },
+        {
+          "income": 3700,
+          "value": 2228
+        },
+        {
+          "income": 3800,
+          "value": 657
+        },
+        {
+          "income": 3900,
+          "value": 651
+        },
+        {
+          "income": 4000,
+          "value": 644
+        },
+        {
+          "income": 5000,
+          "value": 0
+        }
+      ]
+    }
+  },
+  "constraints": {
+    "cannotExceedPurchaseNeed": true,
+    "maximumIncome": 5000,
+    "roundToNearest": 10
+  },
+  "legalNotice": "O subsídio apresentado é uma estimativa comercial aproximada. O valor definitivo depende de renda, composição familiar, localização, imóvel e cálculo oficial do agente financeiro."
+}

@@ -1,0 +1,64 @@
+{
+  "version": "2026.08.01",
+  "updatedAt": "2026-08-03",
+  "validFrom": "2026-08-01",
+  "validUntil": null,
+  "source": "Especificação funcional do Simulador Imobiliário Norte — regras fornecidas para agosto de 2026",
+  "enabledFor": "em_obras",
+  "limits": {
+    "monthlyIncomePercentage": 0.2,
+    "intermediateIncomePercentage": 0.8,
+    "keysIncomePercentage": 0.8,
+    "minimumActValue": 0
+  },
+  "distributionOrder": [
+    "ato_minimo",
+    "mensais",
+    "intermediarias",
+    "chaves",
+    "aumentar_ato"
+  ],
+  "intermediateSuggestion": [
+    {
+      "minimumMonths": 0,
+      "maximumMonths": 11,
+      "maximumCount": 0
+    },
+    {
+      "minimumMonths": 12,
+      "maximumMonths": 23,
+      "maximumCount": 1
+    },
+    {
+      "minimumMonths": 24,
+      "maximumMonths": 35,
+      "maximumCount": 2
+    },
+    {
+      "minimumMonths": 36,
+      "maximumMonths": 47,
+      "maximumCount": 3
+    },
+    {
+      "minimumMonths": 48,
+      "maximumMonths": null,
+      "maximumCount": 4
+    }
+  ],
+  "rules": [
+    {
+      "id": "construction-flow-default",
+      "active": true,
+      "firstInstallmentIsAct": true,
+      "doNotCreateIntermediatesWhenUnnecessary": true,
+      "doNotCreateKeysWhenUnnecessary": true,
+      "centAdjustmentTarget": "ato_ou_ultima_parcela",
+      "manualEditingAllowed": true
+    }
+  ],
+  "states": [
+    "Fluxo fechado",
+    "Falta distribuir R$ {amount}",
+    "Fluxo excede em R$ {amount}"
+  ]
+}

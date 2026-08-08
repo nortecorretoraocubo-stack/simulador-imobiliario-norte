@@ -1,0 +1,43 @@
+{
+  "version": "2026.08.05",
+  "updatedAt": "2026-08-05",
+  "validFrom": "2025-10-13",
+  "validUntil": null,
+  "source": "Banco Central do Brasil, Resolução CMN nº 5.255/2025, e comunicações oficiais da CAIXA",
+  "program": "SBPE",
+  "sfh": {
+    "maximumAppraisalValue": 2250000,
+    "fgtsMayBeUsed": true,
+    "maximumTermMonths": 420,
+    "incomeCommitmentPercentage": 0.30,
+    "indexer": "TR",
+    "referenceAnnualRate": 11.49,
+    "referenceRateMinimum": 11.19,
+    "referenceRateMaximum": 11.49,
+    "rateEditable": true,
+    "quotas": {
+      "sac": 0.80,
+      "price": 0.70
+    }
+  },
+  "sfi": {
+    "minimumAppraisalValueExclusive": 2250000,
+    "fgtsMayBeUsed": false,
+    "maximumTermMonths": 420,
+    "incomeCommitmentPercentage": 0.30,
+    "indexer": "Livre negociação",
+    "referenceAnnualRate": null,
+    "rateEditable": true,
+    "requiresManualRate": true,
+    "quotas": {
+      "sac": 0.80,
+      "price": 0.70
+    }
+  },
+  "notices": [
+    "O SBPE não possui subsídio governamental automático.",
+    "A taxa exata depende da análise de crédito, relacionamento com a instituição e condições vigentes.",
+    "Nas operações com TR, o saldo devedor é atualizado conforme o indexador contratado.",
+    "O CET inclui juros, seguros, tarifas e demais encargos e não é calculado automaticamente nesta versão."
+  ]
+}

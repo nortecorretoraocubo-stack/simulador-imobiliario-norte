@@ -1,0 +1,255 @@
+{
+  "version": "2026.08.07",
+  "updatedAt": "2026-08-07",
+  "validFrom": "2026-08-01",
+  "validUntil": null,
+  "source": "Ministério das Cidades — Minha Casa, Minha Vida - Linha Financiada, atualizado em 28/06/2026. Taxas para Sul/Sudeste/Centro-Oeste: 4,25%–7,66% cotista, 4,75%–8,16% não cotista; Classe Média 10,00% a.a.",
+  "rateType": "nominal_annual",
+  "monthlyConversion": "nominalAnnualDecimal / 12",
+  "effectiveAnnualConversion": "(1 + monthlyRate)^12 - 1",
+  "rules": [
+    {
+      "id": "rate-faixa-1-1a-cotista",
+      "program": "MCMV",
+      "band": "Faixa 1",
+      "subBand": "1A",
+      "regions": [
+        "Sul",
+        "Sudeste",
+        "Centro-Oeste"
+      ],
+      "fgtsStatus": "cotista",
+      "nominalAnnualRate": 4.25,
+      "active": true,
+      "validFrom": "2026-08-01",
+      "validUntil": null
+    },
+    {
+      "id": "rate-faixa-1-1a-nao_cotista",
+      "program": "MCMV",
+      "band": "Faixa 1",
+      "subBand": "1A",
+      "regions": [
+        "Sul",
+        "Sudeste",
+        "Centro-Oeste"
+      ],
+      "fgtsStatus": "nao_cotista",
+      "nominalAnnualRate": 4.75,
+      "active": true,
+      "validFrom": "2026-08-01",
+      "validUntil": null
+    },
+    {
+      "id": "rate-faixa-1-1b-cotista",
+      "program": "MCMV",
+      "band": "Faixa 1",
+      "subBand": "1B",
+      "regions": [
+        "Sul",
+        "Sudeste",
+        "Centro-Oeste"
+      ],
+      "fgtsStatus": "cotista",
+      "nominalAnnualRate": 4.5,
+      "active": true,
+      "validFrom": "2026-08-01",
+      "validUntil": null
+    },
+    {
+      "id": "rate-faixa-1-1b-nao_cotista",
+      "program": "MCMV",
+      "band": "Faixa 1",
+      "subBand": "1B",
+      "regions": [
+        "Sul",
+        "Sudeste",
+        "Centro-Oeste"
+      ],
+      "fgtsStatus": "nao_cotista",
+      "nominalAnnualRate": 5.0,
+      "active": true,
+      "validFrom": "2026-08-01",
+      "validUntil": null
+    },
+    {
+      "id": "rate-faixa-1-1c-cotista",
+      "program": "MCMV",
+      "band": "Faixa 1",
+      "subBand": "1C",
+      "regions": [
+        "Sul",
+        "Sudeste",
+        "Centro-Oeste"
+      ],
+      "fgtsStatus": "cotista",
+      "nominalAnnualRate": 4.75,
+      "active": true,
+      "validFrom": "2026-08-01",
+      "validUntil": null
+    },
+    {
+      "id": "rate-faixa-1-1c-nao_cotista",
+      "program": "MCMV",
+      "band": "Faixa 1",
+      "subBand": "1C",
+      "regions": [
+        "Sul",
+        "Sudeste",
+        "Centro-Oeste"
+      ],
+      "fgtsStatus": "nao_cotista",
+      "nominalAnnualRate": 5.25,
+      "active": true,
+      "validFrom": "2026-08-01",
+      "validUntil": null
+    },
+    {
+      "id": "rate-faixa-2-2a-cotista",
+      "program": "MCMV",
+      "band": "Faixa 2",
+      "subBand": "2A",
+      "regions": [
+        "Sudeste"
+      ],
+      "fgtsStatus": "cotista",
+      "nominalAnnualRate": 5.0,
+      "active": true,
+      "validFrom": "2026-08-01",
+      "validUntil": null
+    },
+    {
+      "id": "rate-faixa-2-2a-nao_cotista",
+      "program": "MCMV",
+      "band": "Faixa 2",
+      "subBand": "2A",
+      "regions": [
+        "Sudeste"
+      ],
+      "fgtsStatus": "nao_cotista",
+      "nominalAnnualRate": 5.5,
+      "active": true,
+      "validFrom": "2026-08-01",
+      "validUntil": null
+    },
+    {
+      "id": "rate-faixa-2-2b-cotista",
+      "program": "MCMV",
+      "band": "Faixa 2",
+      "subBand": "2B",
+      "regions": [
+        "Sudeste"
+      ],
+      "fgtsStatus": "cotista",
+      "nominalAnnualRate": 5.5,
+      "active": true,
+      "validFrom": "2026-08-01",
+      "validUntil": null
+    },
+    {
+      "id": "rate-faixa-2-2b-nao_cotista",
+      "program": "MCMV",
+      "band": "Faixa 2",
+      "subBand": "2B",
+      "regions": [
+        "Sudeste"
+      ],
+      "fgtsStatus": "nao_cotista",
+      "nominalAnnualRate": 6.0,
+      "active": true,
+      "validFrom": "2026-08-01",
+      "validUntil": null
+    },
+    {
+      "id": "rate-faixa-2-2c-cotista",
+      "program": "MCMV",
+      "band": "Faixa 2",
+      "subBand": "2C",
+      "regions": [
+        "Sudeste"
+      ],
+      "fgtsStatus": "cotista",
+      "nominalAnnualRate": 6.5,
+      "active": true,
+      "validFrom": "2026-08-01",
+      "validUntil": null
+    },
+    {
+      "id": "rate-faixa-2-2c-nao_cotista",
+      "program": "MCMV",
+      "band": "Faixa 2",
+      "subBand": "2C",
+      "regions": [
+        "Sudeste"
+      ],
+      "fgtsStatus": "nao_cotista",
+      "nominalAnnualRate": 7.0,
+      "active": true,
+      "validFrom": "2026-08-01",
+      "validUntil": null
+    },
+    {
+      "id": "rate-faixa-3-geral-cotista",
+      "program": "MCMV",
+      "band": "Faixa 3",
+      "subBand": null,
+      "regions": [
+        "Sudeste"
+      ],
+      "fgtsStatus": "cotista",
+      "nominalAnnualRate": 7.66,
+      "active": true,
+      "validFrom": "2026-08-01",
+      "validUntil": null
+    },
+    {
+      "id": "rate-faixa-3-geral-nao_cotista",
+      "program": "MCMV",
+      "band": "Faixa 3",
+      "subBand": null,
+      "regions": [
+        "Sudeste"
+      ],
+      "fgtsStatus": "nao_cotista",
+      "nominalAnnualRate": 8.16,
+      "active": true,
+      "validFrom": "2026-08-01",
+      "validUntil": null
+    },
+    {
+      "id": "rate-faixa-4-cotista",
+      "program": "MCMV",
+      "band": "Faixa 4",
+      "subBand": null,
+      "regions": [
+        "Sudeste"
+      ],
+      "fgtsStatus": "cotista",
+      "nominalAnnualRate": 10.0,
+      "active": true,
+      "validFrom": "2026-08-01",
+      "validUntil": null,
+      "sameRateForFgtsStatuses": true
+    },
+    {
+      "id": "rate-faixa-4-nao_cotista",
+      "program": "MCMV",
+      "band": "Faixa 4",
+      "subBand": null,
+      "regions": [
+        "Sudeste"
+      ],
+      "fgtsStatus": "nao_cotista",
+      "nominalAnnualRate": 10.0,
+      "active": true,
+      "validFrom": "2026-08-01",
+      "validUntil": null,
+      "sameRateForFgtsStatuses": true
+    }
+  ],
+  "manualRate": {
+    "enabledWhenNoCompatibleRule": true,
+    "warning": "Taxa alterada manualmente. O valor pode não corresponder à tabela padrão cadastrada."
+  },
+  "comparisonNote": "A tabela de financiamento fornecida pelo usuário usa limites de renda anteriores. As taxas do motor foram mantidas nos intervalos de renda oficiais vigentes após a atualização de 2026."
+}

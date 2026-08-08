@@ -1,0 +1,19 @@
+{
+  "version": "2026.08.01",
+  "updatedAt": "2026-08-03",
+  "validFrom": "2026-08-01",
+  "validUntil": null,
+  "source": "Especificação funcional do Simulador Imobiliário Norte — regras fornecidas para agosto de 2026",
+  "notices": {
+    "general": "Esta simulação é uma estimativa comercial e não representa aprovação de crédito. Taxas, cotas, subsídios, seguros, prazos e valores dependem da análise de crédito, avaliação do imóvel, regras vigentes e condições da instituição financeira e da construtora.",
+    "costReserve": "A reserva de 2% da renda para seguros e custos é uma estimativa comercial e não representa o valor oficial do contrato.",
+    "subsidy": "O subsídio apresentado é estimado e depende do cálculo oficial do agente financeiro.",
+    "manualRate": "Taxa alterada manualmente. O valor pode não corresponder à tabela padrão cadastrada.",
+    "pendingRule": "Condição pendente de validação. Informe manualmente apenas após confirmar a regra aplicável."
+  },
+  "requiredOutputs": [
+    "result",
+    "pdf",
+    "whatsapp"
+  ]
+}
