@@ -201,3 +201,8 @@ Para gerar o PDF, clique em **PDF Cliente** ou **PDF Corretor** e, na janela abe
 - O Resultado informa se foi marcado mais de um proponente ou dependente para fins de composição/subsídio.
 - O PDF Cliente e o PDF Corretor passam a incluir esses dois parâmetros em uma seção compacta.
 - Nenhuma alteração foi feita nas regras financeiras ou de enquadramento desta versão.
+
+## v1.13.3 — Ajuste visual no iPhone
+
+- Corrigido o alinhamento do marcador "Marque se houver mais de um proponente ou dependente" em telas estreitas.
+- Checkbox e texto agora permanecem dentro do cartão e quebram linha corretamente em iPhone/Android.
